@@ -2,7 +2,6 @@ package com.parse.starter;
 
 import android.app.ListActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.widget.ArrayAdapter;
 import android.widget.Toast;
 
@@ -37,7 +36,7 @@ public class ParseListActivity extends ListActivity {
                     newPet.setName(pet.getName());
                     newPet.setType(pet.getType());
                     pets.add(newPet);
-                    Log.i(pet.getName(),"dsad");
+
                 }
 
                 ArrayAdapter<Pets> adapter = new ArrayAdapter<Pets>(ParseListActivity.this, android.R.layout.simple_list_item_1, pets);
