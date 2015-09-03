@@ -36,6 +36,7 @@ public class ParseListActivity extends ListActivity {
                     newPet.setName(pet.getName());
                     newPet.setType(pet.getType());
                     pets.add(newPet);
+                    //dsajladsjhadsjkadsklasdjkads
 
                 }
 
